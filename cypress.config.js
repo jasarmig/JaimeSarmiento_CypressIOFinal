@@ -1,5 +1,5 @@
 const cucumber = require('cypress-cucumber-preprocessor').default;
-const allureWriter = require('@shelex/cypress-allure-plugin');
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 
 module.exports = {
   
