@@ -105,3 +105,6 @@ dist
 
 # VSCode files
 JaimeSarmiento_CypressIOFinal.code-workspace
+
+# Allure
+allure-2.13.8

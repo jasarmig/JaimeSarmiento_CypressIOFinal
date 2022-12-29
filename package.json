@@ -1,0 +1,25 @@
+{
+  "name": "jaimesarmiento_cypressiofinal",
+  "version": "1.0.0",
+  "description": "</br>\r Create a framework for scratch using cypress (any version), cucumber, and allure reporter, to test the web page: https://www.demoblaze.com/.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasarmig/JaimeSarmiento_CypressIOFinal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasarmig/JaimeSarmiento_CypressIOFinal/issues"
+  },
+  "homepage": "https://github.com/jasarmig/JaimeSarmiento_CypressIOFinal#readme",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "cypress": "^12.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
