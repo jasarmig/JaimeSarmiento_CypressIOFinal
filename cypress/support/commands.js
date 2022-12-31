@@ -23,3 +23,9 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('iFrame', {prevSubject: 'element'}, ($iFrame, selector) => { 
+    return new Cypress.Promise(resolve => { 
+        resolve($iFrame.contents().find(selector))
+    })
+})
