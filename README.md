@@ -8,7 +8,7 @@ The framework should include test cases for the following functionalities:
 
 1. Test the featured items Carousel. It should be in a feature including at least 3 scenarios.
 2. Test Navigation to all header links. It should be in a feature including at least 3 scenarios.
-3. Test the categories Selection, product Selection, Adding product to cart, Buying cart, Removing element from cart. 
+3. Test the categories Selection, product Selection, Adding product to cart, Buying cart, Removing element from cart.
 
 All of the defined scenarios for these functionalities should be on a feature.
 

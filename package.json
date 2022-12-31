@@ -4,7 +4,9 @@
   "description": "</br>\r Create a framework for scratch using cypress (any version), cucumber, and allure reporter, to test the web page: https://www.demoblaze.com/.",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "test": "npx cypress open",
+    "smoke:open": "npx cypress open -e TAGS=@smoke",
+    "regression:open": "npx cypress run -e TAGS=@regression"
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,7 @@
     "cypress-cucumber-preprocessor": "^4.3.1"
   },
   "cypress-cucumber-preprocessor": {
-    "step-definitions": "cypress/e2e",
+    "step_definitions": "cypress/e2e",
     "nonGlobalStepDefinitions": true,
     "filterSpecs": true
   }
