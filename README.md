@@ -20,3 +20,7 @@ All of the defined scenarios for these functionalities should be on a feature.
 <li>The framework must include at least the use of: cy.request, cy.intercept, POM, fixtures.</li>
 <li>Test cases to implement should be designed following best practices and correct organization.</li>
 </ul>
+
+## Architecture Diagram
+
+![ArchitectureDiagram](img/architecture%20diagram.png)
