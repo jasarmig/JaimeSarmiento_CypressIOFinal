@@ -1,0 +1,16 @@
+{
+    "homeUrl" : "https://www.demoblaze.com/index.html",
+    "cartUrl" : "https://www.demoblaze.com/cart.html",
+    "user" : "jasarmig",
+    "pass" : "N0seasap@",
+    "loginNav" : "Log in",
+    "logoutNav" : "Log out",
+    "welcome" : "Welcome ",
+    "nameInput" : "Juan Perez",
+    "countryInput" : "Colombia",
+    "cityInput" : "Bogota",
+    "cardInput" : "123456789101112",
+    "monthInput" : "01",
+    "yearInput" : "2025",
+    "endpoint" : "https://api.demoblaze.com/entries"
+}
